@@ -11,6 +11,13 @@ repositories {
     mavenCentral()
 }
 
+repositories {
+	maven {
+		url 'https://maven.aliyun.com/repository/public/'
+	}
+	mavenCentral()
+}
+
 dependencies {
 
     	implementation 'org.apache.httpcomponents.client5:httpclient5-fluent:5.1.3'
